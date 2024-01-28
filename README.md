@@ -1,4 +1,5 @@
 Dynamic Website with Real-time Updates and Modular System
+
 Project Overview
 This project is a dynamic website designed to provide real-time updates and a modular system for effortless content adjustments. The development includes an intuitive admin interface, offering seamless control over dynamic elements and efficient management of all website data directly from the database.
 
