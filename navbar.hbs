@@ -1,0 +1,25 @@
+
+<nav class="navbar border-bottom navbar-expand-lg py-4 navbar-light bg-light">
+  <a class="navbar-brand ml-4" href="#">
+    <img src="{{data.brandIconUrl}}" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+  {{ data.brandName}}
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mr-4"> <!-- Use ml-auto here -->
+
+      {{#each data.links}}
+      <li class="nav-item active">
+        <a class="nav-link" href="{{this.url}}">{{this.label}}<span class="sr-only">(current)</span></a>
+      </li>
+      
+      {{/each}}
+
+    </ul>
+  </div>
+</nav>
+
+{{!-- {{data}} --}}

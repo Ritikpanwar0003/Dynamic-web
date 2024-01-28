@@ -1,0 +1,13 @@
+.slider-image{
+   max-height: 600px!important;
+   object-fit: cover;
+}
+
+.service_icon{
+   font-size: 200px;
+}
+
+
+.background1{
+   background-color: rgba(65, 15, 15, 0.185);
+}
